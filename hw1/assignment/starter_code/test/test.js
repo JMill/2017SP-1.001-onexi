@@ -1,5 +1,5 @@
 var should = require('chai').should();
-var ex = require('../solution.js');
+var ex = require('../exercise.js');
 
 
 describe('PacMan Grader', function() {
