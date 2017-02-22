@@ -12,8 +12,13 @@ var employees = [
 //     YOUR CODE: write callback
 // ---------------------------------
 
-employees.forEach(add);
+var salaries = 0
+var add = function (item, i, wholething){
+    console.log(item);
+    salaries += Number(item.salary);
+};
 
+employees.forEach(add);
 
 </script>
 </html>
