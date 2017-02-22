@@ -10,9 +10,8 @@ var employees = [
 ];
 
 function isBigEnough(element) {
-	// --------------------------
-  	//		YOUR CODE
-	// --------------------------  	
+	var comparison = element.salary > 500000;
+    return comparison;
 }
 
 var filtered = employees.filter(isBigEnough);
